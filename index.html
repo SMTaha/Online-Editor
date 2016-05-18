@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    </head>
+    <body>
+        <div class="main-content">
+            <nav>
+                <div class="button-set red-button"></div>
+                <div class="button-set blue-button"></div>
+                <div class="button-set green-button"></div>
+                <h1>Assignment</h1>
+                <div class="menu">&#9776; </div>
+            </nav>
+            <div class="body">
+                <div class="editor" id="editor">
+                    <div id="tab01" class="tab highlight">index.html</div>
+                    <div id="tab02" class="tab tab-other up">style.css</div>
+                    <div id="tab03" class="tab tab-other">app.js</div>
+                    <div class="editor-code-body">
+                        <div id="html-editor">
+                    <pre>
+<span class="line-number"> &nbsp;1</span>      &lt;!doctype HTML&gt;
+<span class="line-number"> &nbsp;2</span>      &lt;html&gt;
+<span class="line-number"> &nbsp;3</span>           &lt;head&gt;
+<span class="line-number"> &nbsp;4</span>                &lt;title&gt;Code Editor&lt;/title&gt;
+<span class="line-number"> &nbsp;5</span>          &lt;/head&gt;
+<span class="line-number"> &nbsp;6</span>      &lt;/html&gt;
+<span class="line-number"> &nbsp;7</span>
+<span class="line-number"> &nbsp;8</span>
+<span class="line-number"> &nbsp;9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+                        </pre>
+                        </div>
+                        <div id="css-editor" class="hidden">
+                    <pre>
+<span class="line-number"> &nbsp;1</span>      *{
+<span class="line-number"> &nbsp;2</span>           margin: 0;
+<span class="line-number"> &nbsp;3</span>           padding: 0;
+<span class="line-number"> &nbsp;4</span>           font-family: sans-serif ;
+<span class="line-number"> &nbsp;5</span>           font-size: 1em;
+<span class="line-number"> &nbsp;6</span>           background color: #00ff00;
+<span class="line-number"> &nbsp;7</span>       }
+<span class="line-number"> &nbsp;8</span>
+<span class="line-number"> &nbsp;9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+                        </pre>
+                        </div>
+                        <div id="js-editor" class="hidden">
+                    <pre>
+<span class="line-number"> &nbsp;1</span>      function(){
+<span class="line-number"> &nbsp;2</span>           var editor = document.getElementById("editor");
+<span class="line-number"> &nbsp;3</span>      }
+<span class="line-number"> &nbsp;4</span>
+<span class="line-number"> &nbsp;5</span>
+<span class="line-number"> &nbsp;6</span>
+<span class="line-number"> &nbsp;7</span>
+<span class="line-number"> &nbsp;8</span>
+<span class="line-number"> &nbsp;9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+                    </pre>
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- .main-content -->
+
+<!--
+        <nav class="nav">
+            <div class="inline-div">
+                <h1><a href="#">Syed M. Taha</a></h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#ptag"><li>About</li></a>
+                        <a href="/contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+        <img src="./WherePlatformsMeet.png" />
+        <div class="row">
+            <div class="one-third">
+                <div class="center">HTML</div>
+            </div>
+            <div class="one-third"><div class="center">HTML</div></div>
+            <div class="one-third"><div class="center">HTML</div></div>
+        </div>
+-->
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
