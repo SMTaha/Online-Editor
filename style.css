@@ -30,6 +30,7 @@ nav > .button-set{
     display: inline-block;
     font-size: 9px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 nav > .red-button{
@@ -50,10 +51,12 @@ nav > h1 {
     font-weight: 100;
     font-family: "DejaVu Sans Mono", sans-serif ;
     font-size: 1em;
+    cursor: default;
 }
 .menu{
     float: right;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .body{
@@ -85,7 +88,7 @@ nav > h1 {
     margin: 1px;
     margin-bottom: 0;
     text-align: center;
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 50px 50px 0 0;
     background-color: #ccc;
     width: 40.47%;
     height: 25px;
@@ -102,7 +105,7 @@ nav > h1 {
     background-color: #ffffff;
     color: #00030c;
     box-shadow: -1px -1px 15px #ccc;
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 50px 50px 0 0;
     z-index: 2!important;
     opacity: 1!important;
 }
@@ -127,6 +130,7 @@ nav > h1 {
 
 .line-number{
     color: #2f3431;
+    cursor: default;
 }
 
 .hidden{
