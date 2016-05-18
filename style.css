@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "sans-serif";
+}
+
+body{
+    background-color: #6698FF;
+}
+
+.main-content{
+    margin: 2.5%;
+}
+
+nav{
+    background: rgba(100, 100, 100, 0.5);
+    overflow: hidden;
+    padding: 5px 2%;
+    width: 96%;
+    height: 25px;
+    border-radius: 15px 15px 0 0;
+}
+
+nav > .button-set{
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+/*    background-color: black;*/
+    display: inline-block;
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+nav > .red-button{
+    background-color: #ffb700;
+}
+
+nav > .blue-button{
+    background-color: deepskyblue;
+}
+
+nav > .green-button{
+    background-color: #00ff00;
+}
+
+nav > h1 {
+    display: inline;
+    margin-left: 20px;
+    font-weight: 100;
+    font-family: "DejaVu Sans Mono", sans-serif ;
+    font-size: 1em;
+}
+.menu{
+    float: right;
+    margin-top: 5px;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+    background-color: #00030c;
+    z-index: -1;
+}
+
+.vertical-seperator{
+    border-right: 1px solid #fff;
+    /*margin-top: 10px;*/
+    display: inline;
+}
+
+.editor{
+    height: 100%;
+    width: 99%;
+    margin: 1px 5px;
+    display: inline-block;
+}
+
+.editor .tab, .editor p {
+    padding: 100px -5px 1px -5px!important;
+    display: inline-block;
+}
+
+.editor .tab {
+    margin: 1px;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 50px 50px 0px 0px;
+    background-color: #ccc;
+    width: 40.47%;
+    height: 25px;
+    position: relative;
+    margin-top: 5px;
+    border: 1px solid #000;
+    border-bottom: 0 solid white;
+    cursor: pointer;
+
+        /*border: 1px solid #eee;*/
+}
+
+.editor .highlight{
+    background-color: #ffffff;
+    color: #00030c;
+    box-shadow: -1px -1px 15px #ccc;
+    border-radius: 50px 50px 0px 0px;
+    z-index: 2!important;
+    opacity: 1!important;
+}
+
+.up{
+    z-index: 1;
+}
+
+.editor .tab-other{
+    margin-left: -11.5%!important;
+}
+
+.editor-code-body {
+    color: #2f3431;
+    background-color: #ffffff;
+    width: 99.1%;
+    margin-left: 3px;
+    cursor: text;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.line-number{
+    color: #2f3431;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.nav{
+    position: fixed;
+    background: rgba(200, 200, 200, 0.5);
+    overflow: hidden;
+    padding: 5px 5%;
+    width: 90%;
+/*   0position: relative;*/
+/*}
+
+.nav h1{
+    font-size: 3em;
+}
+
+.inline-div{
+    display: inline-block;
+}
+
+.menu{
+    display: inline-block;
+    float: right;
+}
+
+.menu > ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px 10px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+li:hover{
+    
+    color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.5);
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    /*  Enter property for visited page    */
+/*}
+
+img{
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1;
+}
+
+.row{
+    background-color: #ccc;
+}
+
+.one-third{
+    width: 30%;
+    margin: 10px -10px 10px 15px;
+    padding: 1%;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.center{
+    background-color: aliceblue;
+    padding: 10% 0;
+}*/
